@@ -1,0 +1,136 @@
+tap 'homebrew/versions'
+brew 'bash'
+brew 'bash-completion2'
+
+# `wget` with IRI support.
+brew 'wget', args: ['with-iri']
+
+# more recent versions of some macOS tools.
+brew 'vim', args: ['override-system-vi']
+brew 'homebrew/dupes/grep'
+brew 'homebrew/dupes/openssh'
+brew 'homebrew/dupes/screen'
+
+
+brew 'coreutils'
+
+# some other useful utilities like `sponge`.
+brew 'moreutils'
+# GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+brew 'findutils'
+# GNU `sed`, overwriting the built-in `sed`.
+brew 'gnu-sed', args: ['with-default-names']
+
+# some CTF tools; see https://github.com/ctfs/write-ups.
+brew 'aircrack-ng'
+brew 'bfg'
+brew 'binutils'
+brew 'binwalk'
+brew 'cifer'
+brew 'dex2jar'
+brew 'dns2tcp'
+brew 'fcrackzip'
+brew 'foremost'
+brew 'hashpump'
+brew 'hydra'
+brew 'john'
+brew 'knock'
+brew 'netpbm'
+brew 'nmap'
+brew 'pngcheck'
+brew 'socat'
+brew 'sqlmap'
+brew 'tcpflow'
+brew 'tcpreplay'
+brew 'tcptrace'
+brew 'ucspi-tcp' # `tcpserver` etc.
+brew 'xpdf'
+brew 'xz'
+
+# other useful binaries.
+brew 'ack'
+brew 'dark-mode'
+brew 'git'
+brew 'git-lfs'
+brew 'rename'
+brew 'speedtest_cli'
+brew 'ssh-copy-id'
+brew 'testssl'
+brew 'tree'
+brew 'vbindiff'
+brew 'webkit2png'
+brew 'zopfli'
+
+brew 'ack'
+brew 'coreutils'
+brew 'libcaca', args: ['with-imlib2']
+brew 'libgit2'
+brew 'openssl'
+brew 'node'
+brew 'readline'
+brew 'ruby-build'
+brew 'rbenv'
+brew 'roundup'
+brew 'spaceman-diff'
+brew 'spark'
+brew 'unrar'
+brew 'wget'
+brew 'yarn'
+brew 'youtube-dl'
+brew 'mtr'
+brew 'macvim', args: ['with-override-system-vim']
+
+
+# Copied from https://github.com/holman/dotfiles/blob/master/Brewfile
+cask_args appdir: '/Applications'
+
+# applications
+cask 'owncloud'
+
+cask 'atom'
+cask 'qlstephen'
+cask 'spotify'
+cask 'microsoft-office'
+cask 'xquartz'
+cask 'wireshark'
+cask 'flash-player'
+cask 'qlmarkdown'
+cask 'thunderbird'
+cask 'istat-menus'
+cask 'ccleaner'
+cask 'docker'
+cask 'firefox'
+cask 'flux'
+cask 'iterm2'
+cask 'java'
+cask 'the-unarchiver'
+cask 'vagrant'
+cask 'vagrant-manager'
+cask 'steam'
+cask 'teamviewer'
+cask 'telephone'
+cask 'google-earth'
+cask 'grandperspective'
+cask 'filezilla'
+cask 'flash-player'
+cask 'calibre'
+cask 'royal-tsx'
+cask 'citrix-receiver'
+cask 'iterm2'
+cask 'little-snitch'
+cask 'virtualbox'
+cask 'virtualbox-extension-pack'
+cask '1password'
+cask 'adium'
+cask 'atom'
+cask 'firefox'
+cask 'google-chrome'
+cask 'tunnelblick'
+cask 'vlc'
+
+cask 'transmission'
+
+cask 'arduino'
+
+cask 'tunnelblick'
+cask 'unetbootin'
