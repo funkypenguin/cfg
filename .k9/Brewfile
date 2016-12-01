@@ -46,7 +46,6 @@ brew 'tcpflow'
 brew 'tcpreplay'
 brew 'tcptrace'
 brew 'ucspi-tcp' # `tcpserver` etc.
-brew 'xpdf'
 brew 'xz'
 
 # other useful binaries.
@@ -81,7 +80,6 @@ brew 'yarn'
 brew 'youtube-dl'
 brew 'mtr'
 brew 'tmux'
-brew 'tmuxinator'
 brew 'macvim', args: ['with-override-system-vim']
 
 
