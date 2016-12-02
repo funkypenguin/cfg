@@ -25,7 +25,6 @@ brew 'gnu-sed', args: ['with-default-names']
 
 # some CTF tools; see https://github.com/ctfs/write-ups.
 brew 'aircrack-ng'
-brew 'bfg'
 brew 'binutils'
 brew 'binwalk'
 brew 'cifer'
@@ -64,7 +63,7 @@ brew 'zopfli'
 
 brew 'ack'
 brew 'coreutils'
-brew 'libcaca', args: ['with-imlib2']
+
 brew 'libgit2'
 brew 'openssl'
 brew 'node'
@@ -86,7 +85,7 @@ cask_args appdir: '/Applications'
 
 # applications
 cask 'owncloud'
-
+cask 'dropbox'
 cask 'atom'
 cask 'qlstephen'
 cask 'spotify'
@@ -108,7 +107,6 @@ cask 'vagrant'
 cask 'vagrant-manager'
 cask 'steam'
 cask 'teamviewer'
-cask 'telephone'
 cask 'google-earth'
 cask 'grandperspective'
 cask 'filezilla'
@@ -116,7 +114,6 @@ cask 'flash-player'
 cask 'calibre'
 cask 'royal-tsx'
 cask 'citrix-receiver'
-cask 'iterm2'
 cask 'little-snitch'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
@@ -134,3 +131,6 @@ cask 'arduino'
 
 cask 'tunnelblick'
 cask 'unetbootin'
+
+# This goes later for dependency on java
+brew 'bfg'
