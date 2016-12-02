@@ -80,8 +80,6 @@ brew 'yarn'
 brew 'youtube-dl'
 brew 'mtr'
 brew 'tmux'
-brew 'macvim', args: ['with-override-system-vim']
-
 
 # Copied from https://github.com/holman/dotfiles/blob/master/Brewfile
 cask_args appdir: '/Applications'
